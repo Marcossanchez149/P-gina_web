@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Stylesform.css">
+</head>
+<body>
+    <form action="">
+        <h1 class="title">CONTACT US</h1>
+        <div id="margin">
+            <div class="marg">
+                <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" maxlength="10"><br>
+            </div>
+            <div class="marg">
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="marg">
+                <label for="email">Enter your email:</label>
+                <br><input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="marg">
+                <fieldset>
+                    <legend>Gender:</legend>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+                </fieldset>
+            </div>
+    
+            
+            <div class="marg">
+                <label for="birthday">Birthday:</label>
+                <br><input type="date" id="birthday" name="birthday">
+            </div>
+    
+            <div class="marg">
+                <textarea name="message" rows="10" cols="30">Tell us whaty you need</textarea>
+            </div>
+    
+            <div class="marg">
+                <input type="checkbox" id="terms" name="terms" value="accept terms" required>
+                <label for="terms"> I accept the <a href="sample-terms-conditions-agreement.pdf"> terms and conditions</a></label><br>
+            </div>
+    
+            <div class="marg"> 
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </div>
+    </form>
+    <div class="title"><a href="../Index.html"><button type="button">Back to home</button></a></div>
+</body>
+</html>

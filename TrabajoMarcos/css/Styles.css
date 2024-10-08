@@ -1,0 +1,32 @@
+header{
+    height: 85px;
+    margin-bottom: 15px;
+}
+body{
+    background-color: grey;
+}
+h1{
+    border-bottom:solid gray ;
+    font:  300%/150% serif;
+    
+}
+#pagination{
+    margin-left: 860px;
+    margin-right: 860px;
+}
+.card{
+    border: solid rgba(0, 0, 0, 0.37);
+}
+.text{
+    text-align: center;
+    border: dotted gold;
+    color: white;
+}
+.topsale{
+    margin-bottom: 20px;
+    max-width:319px;
+    
+}
+#video{
+    text-align: center;
+}
